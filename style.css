@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+}
+.container
+{
+    max-width: 1000px;
+    background-color: #f4c2c2 ;
+    margin: 0 auto;
+    padding: 20px;
+}
+header
+{
+
+}
+.profile-image
+{
+    width: 100px;
+    height: 110px;
+    border: 3px solid white;
+    border-radius: 50% ;
+    float:left;
+}
+.header-bio
+{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6
+{
+    color: #e77878;
+}
+.header-contact
+{
+    float: right;
+    padding: 20px;
+}
+.header-contact a
+{
+    text-decoration: none;
+    color: #e77878;
+    font-weight: bold;
+}
+.header-contact a:hover
+{
+    text-decoration: underline;
+    color: purple;
+}
+.div-clear
+{
+    clear: both;
+}
+hr
+{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+#personal-section
+{
+
+}
+.content
+{
+
+}
+.left-div
+{
+    width: 30%;
+    float: left;
+}
+.right-div
+{
+    width: 70%;
+    float: right;
+}
+.common-hr
+{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+.edu-left
+{
+    float: left;
+    width: 45%;
+}
+.edu-right
+{
+    float: right;
+    width: 45%;
+}
+.bottom-container
+{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-container a
+{
+    color: pink;
+    text-decoration: none;
+    margin: 20px;
+}
+.bottom-container p
+{
+    color: pink;
+    margin-top: 20px;
+}
+.edu-left a
+{
+    text-decoration: none;
+    color: #e77878;
+   
+}
+.edu-left a:hover
+{
+    text-decoration: underline;
+    color: purple;
+}
+li 
+{
+    list-style-type: circle ;
+}
+ul li::before 
+{
+    content: "\2022";
+    color: #e77878;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+.reference a
+{
+    text-decoration: none;
+    color: #e77878;
+   
+}
+.reference a:hover
+{
+    text-decoration: underline;
+    color: purple;
+}
