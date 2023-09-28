@@ -4,13 +4,16 @@
 }
 body
 {
-    background-color: #EEE;
+    /* background-color: #EEE; */
+
+    background-color: #ACD4FF;
     font-family: 'Roboto', sans-serif;
 }
 .container
 {
     max-width: 1000px;
-    background-color: #f4c2c2 ;
+    /* background-color: #f4c2c2 ; */
+    background-color: #BADBFF;
     margin: 0 auto;
     padding: 20px;
 }
@@ -29,11 +32,12 @@ header
 .header-bio
 {
     float: left;
-    padding: 30px;
+    /* padding: 30px; */
 }
 h1,h2,h3,h4,h5,h6
 {
-    color: #e77878;
+    /* color: #e77878; */
+    color: #5788BC;
 }
 .header-contact
 {
@@ -43,7 +47,8 @@ h1,h2,h3,h4,h5,h6
 .header-contact a
 {
     text-decoration: none;
-    color: #e77878;
+    /* color: #e77878; */
+    color: #5788BC;
     font-weight: bold;
 }
 .header-contact a:hover
@@ -105,22 +110,33 @@ hr
 }
 .bottom-container a
 {
-    color: pink;
+    color: #5788BC;
     text-decoration: none;
     margin: 20px;
 }
 .bottom-container p
 {
-    color: pink;
+    color: #5788BC;
     margin-top: 20px;
 }
 .edu-left a
 {
     text-decoration: none;
-    color: #e77878;
+    color: #5788BC;
    
 }
 .edu-left a:hover
+{
+    text-decoration: underline;
+    color: purple;
+}
+.edu-right a
+{
+    text-decoration: none;
+    color: #5788BC;
+   
+}
+.edu-right a:hover
 {
     text-decoration: underline;
     color: purple;
@@ -132,7 +148,7 @@ li
 ul li::before 
 {
     content: "\2022";
-    color: #e77878;
+    color: #5788BC;
     font-weight: bold;
     display: inline-block; 
     width: 1em;
@@ -141,7 +157,7 @@ ul li::before
 .reference a
 {
     text-decoration: none;
-    color: #e77878;
+    color: #5788BC;
    
 }
 .reference a:hover
@@ -149,3 +165,12 @@ ul li::before
     text-decoration: underline;
     color: purple;
 }
+/* styles.css */
+.skill-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Two equal-width columns */
+    gap: 10px; /* Adjust the gap between columns */
+    /* width: 80%; Optional: Set a specific width for the grid container */
+    margin:  auto; /* Optional: Center the grid container */
+}
+  
